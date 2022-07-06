@@ -1,0 +1,49 @@
+/* Menu */
+
+.menu_bg {
+  background: #2c70ff;
+}
+
+.menu {
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.menu_logo a {
+  margin: 0 10px;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+.menu_nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu_nav a {
+  display: block;
+  padding: 10px;
+  font-size: 1.25em;
+}
+
+.menu_nav a:hover {
+  color: #122ab2;
+}
+
+/* Introdução */
+
+.introducao {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+  font-size: 3em;
+  line-height: 1;
+}

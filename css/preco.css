@@ -1,0 +1,89 @@
+/* Preço */
+
+.preco {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px;
+  background: #f7f7f7;
+  align-items: flex-end;
+}
+
+.preco_item {
+  flex: 1 1 260px;
+  margin: 10px;
+  border: 4px solid #fff;
+  padding: 20px;
+}
+
+.preco_item h2 {
+  margin-top: 20px;
+  font-size: 3em;
+  text-align: center;
+  color: #a4a4a4;
+}
+
+.preco_item span {
+  display: block;
+  max-width: 300px;
+  padding: 10px 0 5px 0;
+  margin: 20px auto;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.preco_item sup {
+  font-size: 1.5rem;
+}
+
+.preco_item ul {
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #7c7c7c;
+}
+
+.preco_item li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.preco_item li::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #2c70ff;
+}
+
+.preco_item a {
+  max-width: 300px;
+  display: block;
+  padding: 15px 0;
+  margin: 20px auto;
+  border: 4px solid;
+  color: #222;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.25em;
+}
+
+@media (max-width: 800px) {
+  .preco {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .preco .preco_item:nth-child(3) {
+    order: -2;
+  }
+   .preco .preco_item:nth-child(2) {
+    order: -1;
+  }
+}

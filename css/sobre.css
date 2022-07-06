@@ -1,0 +1,33 @@
+/* Sobre */
+
+.sobre {
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 60px 0;
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+}
+
+.sobre_info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.sobre_info h1 {
+    margin-bottom: 1.5em;
+    font-size: 3em;
+}
+
+.sobre_info p {
+    margin-bottom: 1em;
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #7c7c7c;
+}
+
+.sobre_img {
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
